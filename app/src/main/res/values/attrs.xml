@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color_up_ring" format="color" />
+    <attr name="color_on_ring" format="color" />
+    <attr name="color_error_ring" format="color" />
+    <attr name="outer_ring_spacing_width" format="dimension" />
+    <attr name="inner_ring_width" format="dimension" />
+    <attr name="inner_background_width" format="dimension" />
+    <declare-styleable name="GestureLock_styleable">
+        //普通状态下圈的颜色
+        <attr name="color_up_ring" />
+        //按下状态下圈的颜色
+        <attr name="color_on_ring" />
+        //错误时的颜色
+        <attr name="color_error_ring" />
+        //外圈与外圈之间的间距
+        <attr name="outer_ring_spacing_width" />
+        //内圆大小
+        <attr name="inner_ring_width" />
+        //内圆背景大小
+        <attr name="inner_background_width" />
+    </declare-styleable>
+</resources>

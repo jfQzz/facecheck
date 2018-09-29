@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.baidu.voicerecognition.android.ui">
+    <application>
+        <activity
+                android:name=".BaiduASRDigitalDialog"
+                android:configChanges="orientation|keyboardHidden|screenLayout"
+                android:theme="@android:style/Theme.Dialog"
+                android:exported="false"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.baidu.action.RECOGNIZE_SPEECH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

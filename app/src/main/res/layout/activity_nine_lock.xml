@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+   <include layout="@layout/action_bar"/>
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="请输入密码"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <com.meibaa.zab.ninelock.CustomLockView
+        android:id="@+id/lv_lock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        app:color_error_ring="#e91515"
+        app:color_on_ring="#64a460"
+        app:color_up_ring="#3ce915"
+        app:inner_background_width="19dp"
+        app:inner_ring_width="14dp"
+        app:outer_ring_spacing_width="50dp" />
+
+</LinearLayout>

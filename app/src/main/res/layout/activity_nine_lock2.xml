@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meibaa.zab.ninelock.NineLockActivity">
+<include layout="@layout/action_bar"/>
+
+    <Button
+        android:id="@+id/btn_set_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:text="设置密码"
+        android:onClick="onClick"
+        />
+
+
+    <Button
+        android:id="@+id/btn_confirm_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="验证密码"
+        android:onClick="onClick"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btn_modify_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="修改密码"
+        android:onClick="onClick"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btn_clear_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="清除密码"
+        android:onClick="onClick"
+        android:textColor="@color/white" />
+</LinearLayout>

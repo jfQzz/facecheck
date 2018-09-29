@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\android\sign\gestureSignature-master\GestureSignature.iml" filepath="D:\android\sign\gestureSignature-master\GestureSignature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZABone.iml" filepath="$PROJECT_DIR$/ZABone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facesdk/facesdk.iml" filepath="$PROJECT_DIR$/facesdk/facesdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocr_ui/ocr_ui.iml" filepath="$PROJECT_DIR$/ocr_ui/ocr_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiasr/uiasr.iml" filepath="$PROJECT_DIR$/uiasr/uiasr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uidialog/uidialog.iml" filepath="$PROJECT_DIR$/uidialog/uidialog.iml" />
+    </modules>
+  </component>
+</project>

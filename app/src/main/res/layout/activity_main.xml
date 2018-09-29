@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meibaa.zab.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_startSignature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="电子签名"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_nine_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="九宫格密码"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_face_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="人脸识别"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_live_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="活体检测"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_speech_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="语音识别"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btn_hot_fix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="热修复"
+        android:visibility="gone"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_3d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="3D"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_vr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="VR"
+        android:onClick="onClick"/>
+
+</LinearLayout>

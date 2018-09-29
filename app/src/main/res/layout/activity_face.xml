@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.meibaa.zab.face.FaceActivity">
+    <include layout="@layout/action_bar"/>
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="注册"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/login1_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="快速登录"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/detected_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:text="人脸认证"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:text="重置本地用户信息"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

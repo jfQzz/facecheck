@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/action_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username_et"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:hint="请输入用户名"
+            android:textSize="12sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar_iv"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/head_ic"
+            app:civ_border_color="@color/yellow_color"
+            app:civ_border_width="2dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/detect_btn"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:text="自动检测"
+            />
+
+        <Button
+            android:id="@+id/pick_from_album_btn"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:text="从相册选取"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorPrimary"
+            android:text="注册"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>
